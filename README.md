@@ -1,6 +1,8 @@
-# LMGTFY bot
+# LMGT bot (Telegram)
 
-Hello! This bot will enable quick inline use of the [LMGT](https://letmegooglethat.com) service in the Telegram chat platform.
+This bot will provide inline use of the [LMGT](https://letmegooglethat.com) service on Telegram. 
+
+This is a fork of [trgwii](https://github.com/trgwii/LMGTFY-Bot) adjusted to use `letmegooglethat.com` instead of `lmgtfy.com` plus adding `tinyurl.com` as the main shortener (bc its free and works).
 
 ## Installation:
 
