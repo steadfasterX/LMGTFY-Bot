@@ -18,9 +18,7 @@ Now you need to speak to [BotFather](https://t.me/BotFather) within the Telegram
 
 You'll need to create a bot if you didn't already, and get the token, then enable inline mode (use /setinline).
 
-Next open config.json in your favorite text editor, and replace "BOT TOKEN HERE" with the token you got (Remember to surround it in "quotes").
-
-You'll also need to grab an API token from [kutt.it](https://kutt.it/) to use it's shortening capabilities. If you don't want this you can remove it from sources in [defaults.config.json](defaults.config.json)
+Next open config.json in your favorite text editor, and replace `"BOT TOKEN HERE"` with the token you got (remember to surround it in "quotes").
 
 Now you just have to run the following to start the bot:
 
