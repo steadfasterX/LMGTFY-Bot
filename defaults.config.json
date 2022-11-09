@@ -13,23 +13,23 @@
 	},
 
 	"data": {
-		"repository": "https://github.com/trgwii/LMGTFY-Bot",
-		"admin": "TRGWII",
-		"botname": "lmgtfybot"
+		"repository": "https://github.com/steadfasterX/LMGTFY-Bot",
+		"admin": "steadfasterX",
+		"botname": "lmgthat-bot"
 	},
 	"sources": [
 		{
 			"name": "LMGTFY",
-			"baseURL": "https://lmgtfy.com/?q="
+			"baseURL": "https://letmegooglethat.com/?q="
 		},
 		{
 			"name": "Shortened link (devs.sh)",
-			"baseURL": "https://lmgtfy.com/?q=",
+			"baseURL": "https://letmegooglethat.com/?q=",
 			"urlTransformer": "devs.sh"
 		},
 		{
 			"name": "Shortened link (kutt.it)",
-			"baseURL": "https://lmgtfy.com/?q=",
+			"baseURL": "https://letmegooglethat.com/?q=",
 			"urlTransformer": "kutt.it"
 		},
 		{
