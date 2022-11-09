@@ -15,26 +15,17 @@
 	"data": {
 		"repository": "https://github.com/steadfasterX/LMGTFY-Bot",
 		"admin": "steadfasterX",
-		"botname": "lmgthat-bot"
+		"botname": "lmgthat_bot"
 	},
 	"sources": [
 		{
+			"name": "LMGTFY (tinyurl)",
+			"baseURL": "https://letmegooglethat.com/?q=",
+			"urlTransformer": "tinyurl.com"
+		},
+		{
 			"name": "LMGTFY",
 			"baseURL": "https://letmegooglethat.com/?q="
-		},
-		{
-			"name": "Shortened link (devs.sh)",
-			"baseURL": "https://letmegooglethat.com/?q=",
-			"urlTransformer": "devs.sh"
-		},
-		{
-			"name": "Shortened link (kutt.it)",
-			"baseURL": "https://letmegooglethat.com/?q=",
-			"urlTransformer": "kutt.it"
-		},
-		{
-			"name": "Google",
-			"baseURL": "https://www.google.com/search?q="
 		}
 	],
 	"emptyMessage": "How to type inline query Telegram"
